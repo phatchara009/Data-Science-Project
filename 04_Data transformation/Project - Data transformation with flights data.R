@@ -28,6 +28,8 @@ data("planes")
 
 ################################################################################
 
+# Q1 - Which airline is the most used and has the lowest departure and arrival delays?  
+
 flights %>%
   group_by(carrier) %>%
   summarise(
@@ -47,6 +49,8 @@ flights %>%
 
 ################################################################################
 
+# Q2 - Which month has the most average departure and arrival delays?
+
 flights %>%
   group_by(month) %>%
   summarise(
@@ -60,6 +64,8 @@ flights %>%
   arrange(Month)
 
 ################################################################################
+
+# Q3 - In 2013, which plane were the most heavily used?
 
 flights %>%
   filter(year == 2013, tailnum != "") %>%
@@ -78,6 +84,8 @@ flights %>%
 
 ################################################################################
 
+# Q4 - Which plane were the most average departure delay?
+
 flights %>%
   group_by(tailnum) %>%
   summarize(
@@ -92,6 +100,8 @@ flights %>%
 
 ################################################################################
 
+# Q5 - Which plane has good speed (distance per hours.)?
+
 flights %>%
   mutate(mph = distance / (air_time/60)) %>%
   group_by(tailnum) %>%
@@ -99,6 +109,8 @@ flights %>%
   arrange(desc(avg_mph))
 
 ################################################################################
+
+# Q6 - Which place has the most planes landing?
 
 flights %>%
   filter(year == 2013) %>%
