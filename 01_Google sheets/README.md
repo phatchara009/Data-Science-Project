@@ -1,7 +1,7 @@
 # Link to read project details.
 
 ## Practice
-- [Basic Google SheetS](https://docs.google.com/spreadsheets/d/1Ow0CFPG4wJfLs2f2zwgY83-Iy1BhQWF4gvNKVYtypxA/edit?usp=sharing)
+- [Basic Google Sheets](https://docs.google.com/spreadsheets/d/1Ow0CFPG4wJfLs2f2zwgY83-Iy1BhQWF4gvNKVYtypxA/edit?usp=sharing)
 - [Manipulate Data](https://docs.google.com/spreadsheets/d/19EcTc_aDS0GO4Lwe0I4yJZZTIqFLXJOZ9ZFB_gUK97M/edit?usp=sharing)
 - [Query in Google Sheets](https://docs.google.com/spreadsheets/d/17myBTBbau13TqJyxq0eDBt8QEvhLKRv_Z05GR2GmJ7Q/edit?usp=sharing)
 - [Pivot and Chart](https://docs.google.com/spreadsheets/d/1VLVTIWb79hMPQyklUah-EIMVCLgVJcCJWMQGKXhT2Sw/edit?usp=sharing)
