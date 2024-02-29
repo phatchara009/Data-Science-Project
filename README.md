@@ -21,7 +21,7 @@ I'm learning data science bootcamp. There are 10 sprints in the program.
 Contact: phatchara.soros@gmail.com
 
 
-- [ ] [Sprint 01 - Spreadsheets](01_Google sheets)
+- [ ] [Sprint 01 - Spreadsheets](https://github.com/phatchara009/Data-Science-Bootcamp9/tree/82b8ca5ed0b2c56ce05b6ed84d32e1d596542558/01_Google%20sheets)
 - [ ] [Sprint 02 - Databases](code-styled)
 - [ ] [Sprint 03 - R Programming](creativity)
 - [ ] [Sprint 04 - Data Transformation](flowcharts)
