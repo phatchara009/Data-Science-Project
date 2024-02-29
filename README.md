@@ -28,7 +28,7 @@ I'm learning data science bootcamp. There are 10 sprints in the program.
 - [Sprint 99 - Power Query in Excel](https://github.com/phatchara009/Data-Science-Bootcamp9/tree/c02670ee1f096edc62d6f1b30ad5085e37d43832/99_Power%20Query%20in%20Excel)
 
 ## About me
-- Contact: phatchara.soros@gmail.com
+- phatchara.soros@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/phatchara-soroschokchai-589399294/)
 - [Instagram](https://www.instagram.com/fok_phatchara/)
 - [My Website](http://fok335.wordpress.com/)
