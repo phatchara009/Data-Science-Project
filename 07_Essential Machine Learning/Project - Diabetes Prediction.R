@@ -22,20 +22,20 @@ mean(complete.cases(df))
 
 #############################################################################
 
-## select variables
-df_starter <- df %>%
-  select(2,5,6,8,diabetes)
-
-#############################################################################
-
 # Check Correlation of x with y
-df_starter %>%
+df %>%
   group_by((diabetes)) %>%
   summarise(mean(age),
             mean(mass),
             mean(insulin),
             mean(glucose)) %>%
   t()
+
+#############################################################################
+
+## select variables
+df_starter <- df %>%
+  select(2,5,6,8,diabetes)
 
 #############################################################################
 
@@ -85,6 +85,8 @@ confusionMatrix(p,
                 test_df$diabetes, 
                 positive="pos", # can change to neg class
                 mode="prec_recall")
+
+mean(test_df$diabetes == "neg")
 
 # # Statistics Evaluate
 # confusionMatrix(p, 

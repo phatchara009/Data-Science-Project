@@ -1,5 +1,4 @@
-# Link Google sheet.
+# Link for read project details.
 
-- [Basic Statistics 101](https://docs.google.com/spreadsheets/d/1AU5jVmVHEeixHD6Oc5Cx-jg6Anh_82-s4EPELe4jrqU/edit?usp=sharing)
-- [RCT & AB Test](https://docs.google.com/spreadsheets/d/1HC6_x5qNn8RIqXfEoeKSGR6v2IYm80hoAFLLklQ9mBY/edit?usp=sharing)
-- [Logistic Regression](https://docs.google.com/spreadsheets/d/1oLpjkyFbWUDIWE1xZJ3UlU349RlB2L6F64fFOGS1Tv8/edit?usp=drive_link)
+- [Project - Churn Prediciton](https://phatchara-soros.notion.site/Project-Churn-Prediction-in-R-41d5ba77d1a54b24a2eaa033368d5a21?pvs=4)
+- [Project - Diabetes patients Prediction](https://phatchara-soros.notion.site/Project-Diabetes-patients-Prediction-in-R-2016310fc1a346b78746d45095267671?pvs=4)

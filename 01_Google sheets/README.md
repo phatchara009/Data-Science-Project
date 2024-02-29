@@ -1,4 +1,4 @@
-# Link to read project details.
+# Google Sheet Link.
 
 ## Practice
 - [Basic Google Sheets](https://docs.google.com/spreadsheets/d/1Ow0CFPG4wJfLs2f2zwgY83-Iy1BhQWF4gvNKVYtypxA/edit?usp=sharing)
