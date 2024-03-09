@@ -14,3 +14,5 @@ Start running insert_products.py on 09-Mar-24 at 22:25:17.36
 insert_products.py Operating Time: 0 hours 0 minutes 1 seconds 
 Start running insert_sellers.py on 09-Mar-24 at 22:25:18.27 
 insert_sellers.py Operating Time: 0 hours 0 minutes 2 seconds 
+Start running insert_customers.py on 09-Mar-24 at 22:31:01.19 
+insert_customers.py Operating Time: 0 hours 0 minutes 1 seconds 

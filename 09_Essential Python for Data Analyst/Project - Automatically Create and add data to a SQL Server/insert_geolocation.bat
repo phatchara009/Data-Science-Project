@@ -1,7 +1,7 @@
 @echo off
 
 REM ตั้งค่า working directory เป็นตำแหน่งที่คุณต้องการ
-set "working_directory=C:\Users\Admin\Documents\GitHub\data-science-bootcamp9\09_Essential Python for Data Analyst\Project - Create and add table to SQL Server Database"
+set "working_directory=C:\Users\Admin\Documents\GitHub\data-science-bootcamp9\09_Essential Python for Data Analyst\Project - Automatically Create and add data to a SQL Server"
 
 REM เปลี่ยน working directory เป็นตำแหน่งที่คุณต้องการ
 cd /d "%working_directory%"
@@ -12,7 +12,7 @@ REM เก็บวันที่และเวลาเริ่มต้น�
 set "start_date=%DATE%"
 
 REM รับชื่อไฟล์ที่จะรัน
-set "filename=insert_orders.py"
+set "filename=insert_geolocation.py"
 
 echo Start running %filename% on %start_date% at %start_time%
 echo Start running %filename% on %start_date% at %start_time% >> "runtime_log.txt"

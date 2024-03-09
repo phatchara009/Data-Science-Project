@@ -24,7 +24,7 @@ time.sleep(10)
 
 click_out = driver.find_element(By.XPATH, '/html/body/div[5]/div/div/div/div[3]/button')
 click_out.click()
-time.sleep(3)
+time.sleep(7)
 
 click_out_2 = driver.find_element(By.XPATH, '/html/body/div[7]/div/div/div/div[1]/div[2]/div[1]/button')
 click_out_2.click()
