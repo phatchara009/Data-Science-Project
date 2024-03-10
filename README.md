@@ -1,6 +1,6 @@
-<h1 align="center">Data Science Bootcamp Batch 9</h1>
-<p align="center"><i>This is a collection of data science practices and projects in my github profile.</i></p>
-<p align="center"><i>I'm learning data science bootcamp. There are 10 sprints in the program.</i></p>
+<h1 align="center">Data Science Bootcamp</h1>
+<p align="center"><i>This is a collection of data science practices and personal projects in my github profile.</i></p>
+<p align="center"><i>There are 10 sprints in the Bootcamp.</i></p>
 
 ## Part of the program
 
