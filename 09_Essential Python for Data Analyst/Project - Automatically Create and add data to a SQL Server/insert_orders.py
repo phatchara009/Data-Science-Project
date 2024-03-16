@@ -18,10 +18,10 @@ conn_str = f"DRIVER={driver_name};SERVER={server_name};DATABASE={database_name};
 
 
 # Read CSV file
-data_path = r"C:\Users\Admin\Documents\GitHub\data-science-bootcamp9\09_Essential Python for Data Analyst\Project - Create and add table to SQL Server Database\data"
+data_path = r"C:\Users\Admin\Documents\GitHub\data-science-bootcamp9\09_Essential Python for Data Analyst\Project - Automatically Create and add data to a SQL Server\data"
 file_name = "olist_orders_dataset.csv"
 df = pd.read_csv(os.path.join(data_path, file_name), encoding="utf8")
-df.dtypes
+df.info()
 
 
 df.duplicated().sum()
@@ -57,27 +57,27 @@ print(df.order_id.astype(str).str.len().max())
 print(df.customer_id.astype(str).str.len().max())
 
 
-drop_table_query = """
-    DROP TABLE IF EXISTS orders
-"""
+# drop_table_query = """
+#     DROP TABLE IF EXISTS orders
+# """
 
-create_table_query = """
-    CREATE TABLE orders(    
-        order_id VARCHAR(50) NOT NULL PRIMARY KEY,
-        customer_id VARCHAR(50) NOT NULL,
-        order_status VARCHAR(50) NULL,
-        order_purchase_timestamp DATETIME NULL,
-        order_approved_at DATETIME NULL,
-        order_delivered_carrier_date DATETIME NULL,
-        order_delivered_customer_date DATETIME NULL,
-        order_estimated_delivery_date DATETIME NULL
-    );
-"""
+# create_table_query = """
+#     CREATE TABLE orders(    
+#         order_id VARCHAR(50) NOT NULL PRIMARY KEY,
+#         customer_id VARCHAR(50) NOT NULL,
+#         order_status VARCHAR(50) NULL,
+#         order_purchase_timestamp DATETIME NULL,
+#         order_approved_at DATETIME NULL,
+#         order_delivered_carrier_date DATETIME NULL,
+#         order_delivered_customer_date DATETIME NULL,
+#         order_estimated_delivery_date DATETIME NULL
+#     );
+# """
 
-with pyodbc.connect(conn_str) as con:
-    con.execute(drop_table_query)
-    con.execute(create_table_query)
-    con.commit()
+# with pyodbc.connect(conn_str) as con:
+#     con.execute(drop_table_query)
+#     con.execute(create_table_query)
+#     con.commit()
 
 
 # Define SQL command for truncate table

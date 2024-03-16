@@ -18,10 +18,10 @@ conn_str = f"DRIVER={driver_name};SERVER={server_name};DATABASE={database_name};
 
 
 # Read CSV file
-data_path = r"C:\Users\Admin\Documents\GitHub\data-science-bootcamp9\09_Essential Python for Data Analyst\Project - Create and add table to SQL Server Database\data"
+data_path = r"C:\Users\Admin\Documents\GitHub\data-science-bootcamp9\09_Essential Python for Data Analyst\Project - Automatically Create and add data to a SQL Server\data"
 file_name = "olist_sellers_dataset.csv"
 df = pd.read_csv(os.path.join(data_path, file_name), encoding="utf8")
-df.dtypes
+df.info()
 
 
 df.duplicated().sum()

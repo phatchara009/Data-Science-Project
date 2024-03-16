@@ -16,3 +16,19 @@ Start running insert_sellers.py on 09-Mar-24 at 22:25:18.27
 insert_sellers.py Operating Time: 0 hours 0 minutes 2 seconds 
 Start running insert_customers.py on 09-Mar-24 at 22:31:01.19 
 insert_customers.py Operating Time: 0 hours 0 minutes 1 seconds 
+Start running insert_customers.py on 16-Mar-24 at 15:13:11.58 
+insert_customers.py Operating Time: 0 hours 0 minutes 39 seconds 
+Start running insert_geolocation.py on 16-Mar-24 at 15:13:50.98 
+insert_geolocation.py Operating Time: 0 hours 2 minutes 23 seconds 
+Start running insert_orders.py on 16-Mar-24 at 15:16:13.65 
+insert_orders.py Operating Time: 0 hours 0 minutes 28 seconds 
+Start running insert_order_items.py on 16-Mar-24 at 15:16:41.48 
+insert_order_items.py Operating Time: 0 hours 0 minutes 25 seconds 
+Start running insert_order_payments.py on 16-Mar-24 at 15:17:06.71 
+insert_order_payments.py Operating Time: 0 hours 0 minutes 20 seconds 
+Start running insert_order_reviews.py on 16-Mar-24 at 15:17:26.48 
+insert_order_reviews.py Operating Time: 0 hours 0 minutes 26 seconds 
+Start running insert_products.py on 16-Mar-24 at 15:17:52.90 
+insert_products.py Operating Time: 0 hours 0 minutes 8 seconds 
+Start running insert_sellers.py on 16-Mar-24 at 15:18:00.54 
+insert_sellers.py Operating Time: 0 hours 0 minutes 2 seconds 
