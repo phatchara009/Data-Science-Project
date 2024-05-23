@@ -1,4 +1,4 @@
-industry_name,stock_name
+sector_name,stock_name
 agri,ee
 agri,gfpt
 agri,lee
@@ -104,6 +104,7 @@ person,ddd
 person,jct
 person,kiss
 person,nam
+person,neo
 person,nv
 person,occ
 person,s&j
@@ -447,9 +448,9 @@ cons,tritn
 cons,ttcl
 cons,uniq
 cons,wge
-energ,7up
 energ,acc
 energ,ace
+energ,ae
 energ,age
 energ,ai
 energ,aie
@@ -554,6 +555,7 @@ helth,ahc
 helth,bch
 helth,bdms
 helth,bh
+helth,bkgi
 helth,chg
 helth,cmr
 helth,ekh
@@ -688,6 +690,7 @@ ict,samtel
 ict,sdc
 ict,sis
 ict,sky
+ict,spreme
 ict,svoa
 ict,symc
 ict,synex
