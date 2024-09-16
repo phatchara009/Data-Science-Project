@@ -1,0 +1,32 @@
+CREATE DATABASE SchoolManagementDb;
+GO
+
+USE [SchoolManagementDb];
+GO
+
+CREATE TABLE Students (
+	[Id] INT PRIMARY KEY IDENTITY(1, 1), 
+	[FirstName] NVARCHAR(50) NOT NULL,
+	[LastName] NVARCHAR(50) NOT NULL,
+	[DateOfBirth] DATE NULL,
+	[StudentId] NVARCHAR(10) UNIQUE,
+	[ProgrammeOfStudy] NVARCHAR(150) NOT NULL
+);
+GO
+
+CREATE TABLE Lecturers (
+	[Id] INT PRIMARY KEY IDENTITY(1, 1), 
+	[FirstName] NVARCHAR(50) NOT NULL,
+	[LastName] NVARCHAR(50) NOT NULL,
+	[DateOfBirth] DATE NULL,
+	[StaffId] NVARCHAR(10) UNIQUE
+);
+GO
+
+CREATE TABLE Courses (
+	[Id] INT PRIMARY KEY IDENTITY(1, 1), 
+	[Name] NVARCHAR(50) NOT NULL,
+	[Code] NVARCHAR(5) UNIQUE,
+	[Credits] INT NULL
+);
+GO

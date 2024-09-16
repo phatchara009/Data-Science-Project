@@ -1,0 +1,9 @@
+EXEC sp_MSForEachTable 'DELETE FROM ?' -- DELETE DATA IN ALL TABLE
+
+-- RESET IDENTITY PRIMARY KEY TO START AT 1
+DBCC CHECKIDENT ('[dbo].[Classes]', RESEED, 0) 
+DBCC CHECKIDENT ('[dbo].[Courses]', RESEED, 0) 
+DBCC CHECKIDENT ('[dbo].[Enrollments]', RESEED, 0)
+DBCC CHECKIDENT ('[dbo].[Lecturers]', RESEED, 0) 
+DBCC CHECKIDENT ('[dbo].ProgrammesOfStudy]', RESEED, 0)
+DBCC CHECKIDENT ('[dbo].Students]', RESEED, 0)
